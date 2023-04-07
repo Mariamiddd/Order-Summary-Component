@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+    background-image: url(./icons/pattern-background-desktop.svg);
+    background-size: 100% 437px;
+    background-repeat: no-repeat;
+    background-color:#F2F2F2;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Sofia Sans', sans-serif;
+    text-align: center;
+    font-size: 16px;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 450px;
+    border-radius: 20px;
+    background-color: white;
+    
+}
+
+.imghero{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px ;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37px;
+    color: #1F2E55;
+    padding-top: 17px;
+
+}
+
+p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color:#717FA6;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.conditions{
+    border-radius: 11px;
+    background-color: #F7F9FF; 
+    position: relative;
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-bottom: 32px;
+    margin-top: 20px;
+    width: 354px;
+    height: 98px;   
+
+}
+
+.musicicon{
+    position: relative;
+    top: 25%;
+    left: -35%;
+}
+
+.peryear{
+    font-size: 16px;
+    color: #717FA6;
+}
+
+.plan {
+    font-size: 16px;
+    color: #1F2E55;
+    font-weight: 900;
+}
+
+.arrangeprice{
+    position: relative;
+    top: -29%;
+    left: -10%;
+}
+
+.button-change{
+    position: relative;
+    top: -67%;
+    left: 35%;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    color:#382AE1;
+    border: none;   
+}
+
+.pay{
+    border: none;
+    height: 50px;
+    width: 354px;
+    border-radius: 11px;
+    background-color: #382AE1;
+    font-weight: 900;
+    color: white;
+    box-shadow: 0px 20px 20px 0px #382AE131;
+}
+
+.cancel{
+    font-weight: 900;
+    border: none;
+    color:#717FA6;
+    font-size: 15px;
+    margin-top: 32px;
+    padding-bottom: 48px;
+    background-color: white;
+    
+}
+
+.button-change:hover{
+    color: #766CF1;
+    cursor: pointer;
+}
+.pay:hover{
+    background-color:#766CF1;
+    cursor: pointer;
+
+}
+.cancel:hover{
+    color:#1F2E55;
+    cursor: pointer;
+
+}
