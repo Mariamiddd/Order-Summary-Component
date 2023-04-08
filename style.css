@@ -93,7 +93,8 @@ p{
     font-weight: 700;
     text-decoration-line: underline;
     color:#382AE1;
-    border: none;   
+    border: none; 
+    background-color: #F7F9FF;
 }
 
 .pay{
